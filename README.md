@@ -69,4 +69,4 @@ Hi! 👋 I'm a Computer Engineering student from Chile. This portfolio showcases
 ## 📬 Contacto / Contact
 
 - ✉️ Correo: lilibethparada@gmail.com
-- 💼 [LinkedIn](www.linkedin.com/in/lilibet-parada-muñoz)
+- 💼 [LinkedIn](https://www.linkedin.com/in/lilibet-parada-muñoz)
