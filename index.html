@@ -1,75 +1,121 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portafolio de Lilibet Parada</title>
-  <!-- Vincula el CSS del tema StartBootstrap Resume -->
-  <link href="https://cdn.jsdelivr.net/npm/startbootstrap-resume@4.0.0/dist/css/resume.min.css" rel="stylesheet" />
-  <style>
-    /* Personaliza los colores para tonos lilas y pastel */
-    body {
-      background-color: #f3f4f9;
-      color: #4a4a4a;
-    }
-    header {
-      background: linear-gradient(to right, #9c27b0, #673ab7);
-      color: white;
-    }
-    h1, h2 {
-      color: #9c27b0;
-    }
-    .project {
-      background-color: #ffffff;
-      border: 1px solid #e1e1e1;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    .project a {
-      color: #9c27b0;
-    }
-    footer {
-      background-color: #673ab7;
-      color: white;
-    }
-  </style>
-</head>
-<body id="page-top">
-  <header class="masthead d-flex">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1">Hola, soy Lilibet 👩‍💻</h1>
-      <p class="mb-5">Desarrolladora web apasionada por crear soluciones útiles y eficientes</p>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Portafolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename"></h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Inicio</a></li>
+          <li><a href="about.html">Acerca de</a></li>
+          <li><a href="resume.html">Currículum</a></li>
+          <li><a href="portfolio.html">Portafolio</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
     </div>
   </header>
 
-  <section id="projects" class="resume-section p-3 p-lg-5 d-flex justify-content-center" style="background-color: #f9f9f9;">
-    <div class="w-100">
-      <h2 class="mb-5" style="color: #9c27b0;">📁 Proyectos</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="project">
-            <img src="https://via.placeholder.com/400x200.png?text=AppGedani" alt="AppGedani" class="img-fluid rounded">
-            <h3>AppGedani</h3>
-            <p>Aplicación web desarrollada en React para registrar y gestionar reportes técnicos realizados en terreno. Optimizada para móviles, con despliegue en Firebase.</p>
-            <a href="https://gedani.web.app" target="_blank">Ver sitio en vivo</a> |
-            <a href="https://github.com/Lilitha04/AppGedani" target="_blank">Ver en GitHub</a>
-          </div>
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container" data-aos="zoom-out" data-aos-delay="100">
+        <h2>Lilibet Parada</h2>
+        <p>I am <span class="typed" data-typed-items="Engineer, Developer, Scrum Master, UX/UI Designer "></span><span class="typed-cursor typed-cursor--blink"></span></p>
+
         </div>
-        <div class="col-md-6">
-          <div class="project">
-            <img src="ruta/imagen-webrepo.png" alt="Repositorio de Informes" class="img-fluid rounded">
-            <h3>Repositorio de Informes A11</h3>
-            <p>Sitio web estático que organiza informes técnicos por zonas geográficas. Incluye navegación y estructura tipo dashboard. HTML, CSS y JS puros, ideal para documentación interna.</p>
-            <a href="https://github.com/Lilitha04/web-repo" target="_blank">Ver en GitHub</a>
-          </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">Alan Kay</h3>
+      <p>"La mejor manera de predecir el futuro es inventarlo."</p>
+      <div class="social-links d-flex justify-content-center">
+     <!--   <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a> -->
+        <a href="https://github.com/Lilitha04/"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/lilibet-parada-mu%C3%B1oz/"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Portafolio Lilibet</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+
+          Designed by <a href="#">Lilibet</a>
         </div>
       </div>
     </div>
-  </section>
-
-  <footer class="footer text-center py-4" style="background-color: #673ab7;">
-    <div class="container">
-      <p class="m-0 text-white">© 2025 Lilibet Parada — Todos los derechos reservados</p>
-    </div>
   </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
